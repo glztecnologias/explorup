@@ -8,9 +8,9 @@ class Participation extends Model
 {
     //
     protected $table = 'participations';
-    public function activity() //relacion con tabla activities
+    public function activity_date() //relacion con tabla activities
     {
-        return $this->belongsTo('App\Activity','activities_id');
+        return $this->belongsTo('App\Activity_date','activity_dates_id');
     }
     public function user() //relacion con tabla user
     {

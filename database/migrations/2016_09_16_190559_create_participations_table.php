@@ -20,10 +20,10 @@ class CreateParticipationsTable extends Migration
             $table->string('enrollment_type',20)->nullable();
             $table->timestamps();
             //claves foraneas
-            $table->integer('activities_id')->unsigned(); //actividad
+            $table->integer('activity_dates_id')->unsigned(); //fechas de actividad
             $table->integer('users_id')->unsigned()->nullable(); //usuario que puede ser nulo
             //indexaciones
-            $table->index(['rut','activities_id','users_id']);
+            $table->index(['rut','activity_dates_id','users_id']);
 
         });
     }

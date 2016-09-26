@@ -21,16 +21,11 @@ class CreateActivitiesTable extends Migration
             $table->longText('instructions');
             $table->longText('restrictions');
             $table->longText('transfers');
-            $table->integer('total_reservation_quota')->unsigned();
-            $table->integer('confirmed_reservation')->unsigned();
-            $table->dateTime('start_date');
-            $table->dateTime('end_date');
             $table->float('cost');
             $table->string('address',150)->nullable();
             $table->string('latitude',45);
             $table->string('longitude',45);
             $table->bigInteger('visit_counter')->unsigned();
-            $table->string('leader_name',80)->nullable();
             $table->timestamps();
             //claves foraneas
             $table->integer('activity_types_id')->unsigned(); //tipo de actividad

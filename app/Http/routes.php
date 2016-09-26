@@ -11,6 +11,32 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+/*--------------------------------------------------------------------------
+| PUBLICO
+|--------------------------------------------------------------------------*/
+
+Route::get('/', function () { return redirect('/home');});
+Route::get('/home', function () { return view('home.index');}); //pagina de inicio.
+Route::get('/aventuras', function () { return view('adventures.index');}); //pagina de inicio.
+//Route::get('/lista', function () { return view('lista.index');}); //pagina de inicio.
+Route::get('/mi_cuenta', function () { return view('account.index');}); //pagina de inicio.
+Route::get('/publica_ahora', function () { return view('agency_register.index');}); //pagina de inicio.
+Route::get('/contactanos', function () { return view('contact.index');}); //pagina de inicio.
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------
+| EMPRESAS
+|--------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------
+| ADMINISTRACION
+|--------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------*/
