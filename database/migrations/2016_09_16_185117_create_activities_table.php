@@ -30,8 +30,9 @@ class CreateActivitiesTable extends Migration
             //claves foraneas
             $table->integer('activity_types_id')->unsigned(); //tipo de actividad
             $table->integer('agencies_id')->unsigned(); //agencia de turismo
+            $table->integer('routes_id')->unsigned(); //ruta de actividad
             //indexaciones
-            $table->index(['status','activity_types_id','agencies_id']);
+            $table->index(['routes_id','activity_types_id','agencies_id']);
 
         });
     }

@@ -8,7 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'CreateActivitiesTable' => $baseDir . '/database/migrations/2016_09_16_185117_create_activities_table.php',
     'CreateActivityDatesTable' => $baseDir . '/database/migrations/2016_09_21_125019_create_activity_dates_table.php',
-    'CreateActivityItemsTable' => $baseDir . '/database/migrations/2016_09_16_192411_create_activity_items_table.php',
     'CreateActivityTypesTable' => $baseDir . '/database/migrations/2016_09_16_192236_create_activity_types_table.php',
     'CreateAgenciesTable' => $baseDir . '/database/migrations/2016_09_16_185143_create_agencies_table.php',
     'CreateAgencyPhotosTable' => $baseDir . '/database/migrations/2016_09_16_192505_create_agency_photos_table.php',
@@ -18,6 +17,8 @@ return array(
     'CreatePhotosTable' => $baseDir . '/database/migrations/2016_09_16_190633_create_photos_table.php',
     'CreateRequestTypesTable' => $baseDir . '/database/migrations/2016_09_16_192155_create_request_types_table.php',
     'CreateRequestsTable' => $baseDir . '/database/migrations/2016_09_16_192126_create_requests_table.php',
+    'CreateRouteItemsTable' => $baseDir . '/database/migrations/2016_09_27_124820_create_route_items_table.php',
+    'CreateRoutesTable' => $baseDir . '/database/migrations/2016_09_27_124850_create_routes_table.php',
     'CreateTourismTypesTable' => $baseDir . '/database/migrations/2016_09_16_192327_create_tourism_types_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'CreateVideosTable' => $baseDir . '/database/migrations/2016_09_16_190715_create_videos_table.php',

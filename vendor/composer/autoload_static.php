@@ -279,7 +279,6 @@ class ComposerStaticInitddc972ac79436c5ed06f0a0d305c1330
     public static $classMap = array (
         'CreateActivitiesTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_185117_create_activities_table.php',
         'CreateActivityDatesTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_21_125019_create_activity_dates_table.php',
-        'CreateActivityItemsTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_192411_create_activity_items_table.php',
         'CreateActivityTypesTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_192236_create_activity_types_table.php',
         'CreateAgenciesTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_185143_create_agencies_table.php',
         'CreateAgencyPhotosTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_192505_create_agency_photos_table.php',
@@ -289,6 +288,8 @@ class ComposerStaticInitddc972ac79436c5ed06f0a0d305c1330
         'CreatePhotosTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_190633_create_photos_table.php',
         'CreateRequestTypesTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_192155_create_request_types_table.php',
         'CreateRequestsTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_192126_create_requests_table.php',
+        'CreateRouteItemsTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_27_124820_create_route_items_table.php',
+        'CreateRoutesTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_27_124850_create_routes_table.php',
         'CreateTourismTypesTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_192327_create_tourism_types_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'CreateVideosTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_16_190715_create_videos_table.php',
