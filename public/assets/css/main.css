@@ -112,6 +112,8 @@
 /* Content Area */
 body {
   padding-top: 75px;
+
+  background: url('http://localhost/explorup/public/assets/img/topo2.png') repeat lightgray;
 }
 .ui.vertical.menu.moderns {
   border-radius: 0;

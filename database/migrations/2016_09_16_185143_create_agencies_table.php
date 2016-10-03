@@ -20,6 +20,7 @@ class CreateAgenciesTable extends Migration
             $table->string('password',100);
             $table->string('contact_person_name',100)->nullable();
             $table->string('phone',40);
+            $table->string('prueba',40);
             $table->string('addres',100);
             $table->string('latitude',45)->nullable();
             $table->string('longitude',45)->nullable();

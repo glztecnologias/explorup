@@ -12,4 +12,6 @@ class Agency extends Model
     {
         return $this->belongsTo('App\Tourism_type','tourism_types_id');
     }
+
+
 }
